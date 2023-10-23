@@ -1,0 +1,1937 @@
+@import "nullstyle.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Kumbh+Sans:wght@400;500;600;700;800&display=swap");
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.container-color {
+    background: #faf8f6;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    &__logo {
+        padding-left: 85px;
+    }
+    &__nav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 27px;
+    }
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    &__menu-btn a {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.3px;
+    }
+}
+.special-btn1 {
+    width: 193px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #20ad96;
+    border-radius: 4px;
+    font-family: "Kumbh Sans";
+    font-weight: 600;
+    line-height: 130%;
+    margin-right: 75px;
+}
+.preview {
+    & > img {
+        position: absolute;
+        left: 34px;
+        top: 55px;
+    }
+    position: relative;
+    display: flex;
+    align-items: center;
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__content-left {
+        margin-top: 140px;
+        margin-left: 85px;
+        max-width: 545px;
+    }
+    &__content-left h3 {
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+        margin-bottom: 6px;
+    }
+    &__content-left h1 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: -0.72px;
+        margin-bottom: 18px;
+    }
+    &__content-left p {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 18px;
+    }
+    &__right-img {
+        position: absolute;
+        top: 100px;
+        right: 166px;
+    }
+    &__right-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 237px;
+        height: 104px;
+        background: white;
+        position: absolute;
+        top: 55px;
+        right: 507px;
+        z-index: 1;
+    }
+}
+.special-btn2 {
+    width: 250px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #20ad96;
+    border-radius: 10px;
+    font-family: "Kumbh Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 141px;
+}
+.info {
+    margin-top: 110px;
+    max-width: 1140px;
+    & > img {
+        margin-bottom: 16px;
+    }
+    &__text {
+        margin-bottom: 16px;
+        display: flex;
+        height: 200px;
+        flex-direction: row;
+        gap: 74px;
+    }
+    &__text h1 {
+        margin-top: 16px;
+        max-width: 492px;
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px;
+        letter-spacing: -0.48px;
+    }
+    &__text-texts {
+        max-width: 468px;
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__cards {
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+    &__cards-info1 {
+        padding: 40px;
+    }
+    &__cards img {
+        margin-bottom: 32px;
+    }
+    &__cards h2 {
+        color: #041434;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+        margin-bottom: 16px;
+    }
+    &__cards p {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+    }
+    &__cards-info2 {
+        padding: 40px;
+    }
+    &__cards-info3 {
+        padding: 40px;
+    }
+}
+.reviews {
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-bottom: 219px;
+    & h1 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px;
+        letter-spacing: -0.48px;
+        max-width: 530px;
+        margin-bottom: 37px;
+    }
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        gap: 37px;
+    }
+    &__cards p {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+    }
+    &__cards h2 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+    }
+    &__cards-info1 {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+        padding: 48px;
+        background: white;
+        opacity: 0.85;
+    }
+    &__cards-info1-stars {
+        width: 116px;
+        height: 20px;
+        background: url("/img/stars-disable.png") no-repeat;
+    }
+    &__cards-info1:hover span {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+    }
+    &__cards-info1:hover &__cards-info1-stars {
+        background: url("/img/stars-active.png") no-repeat;
+    }
+    &__cards-info1:hover {
+        opacity: 1;
+        box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+    }
+    &__cards-info2 {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+        padding: 48px;
+        background: white;
+        opacity: 0.85;
+    }
+    &__cards-info2-stars {
+        width: 116px;
+        height: 20px;
+        background: url("/img/stars-disable.png") no-repeat;
+    }
+    &__cards-info2:hover span {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+    }
+    &__cards-info2:hover &__cards-info2-stars {
+        background: url("/img/stars-active.png") no-repeat;
+    }
+    &__cards-info2:hover {
+        opacity: 1;
+        box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+    }
+    &__cards-info3 {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+        padding: 48px;
+        background: white;
+        opacity: 0.85;
+    }
+    &__cards-info3-stars {
+        width: 116px;
+        height: 20px;
+        background: url("/img/stars-disable.png") no-repeat;
+    }
+    &__cards-info3:hover span {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+    }
+    &__cards-info3:hover &__cards-info3-stars {
+        background: url("/img/stars-active.png") no-repeat;
+    }
+    &__cards-info3:hover {
+        opacity: 1;
+        box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+    }
+}
+.motivation {
+    margin-top: 97px;
+    & h1 {
+        margin-left: 389px;
+        margin-bottom: 65px;
+        color: #333461;
+        text-align: center;
+        font-family: "Kumbh Sans";
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px;
+        letter-spacing: -0.48px;
+        max-width: 680px;
+    }
+    &__cards {
+        display: flex;
+        gap: 41px;
+        margin-bottom: 55px;
+        margin-left: 154px;
+    }
+    &__cards-btn {
+        margin-bottom: 97px;
+    }
+    &__cards-info1-text {
+        border: 1px solid #edeff5;
+        padding: 24px 28px;
+        max-width: 356px;
+    }
+    &__cards-info1-text h2 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+        margin-bottom: 12px;
+    }
+    &__cards-info1-text p {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+    }
+    &__cards-info2-text {
+        border: 1px solid #edeff5;
+        padding: 24px 28px;
+        max-width: 356px;
+    }
+    &__cards-info2-text h2 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+        margin-bottom: 12px;
+    }
+    &__cards-info2-text p {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+    }
+    &__cards-info3-text {
+        border: 1px solid #edeff5;
+        padding: 24px 28px;
+        max-width: 356px;
+    }
+    &__cards-info3-text h2 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+        margin-bottom: 12px;
+    }
+    &__cards-info3-text p {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+    }
+}
+.guide {
+    position: relative;
+    display: flex;
+    &__text {
+        max-width: 550px;
+        margin-top: 204px;
+        margin-left: 152px;
+    }
+    &__text h1 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px;
+        letter-spacing: -0.48px;
+        margin-bottom: 22px;
+    }
+    &__text-info {
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__text-info-first {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+    }
+    &__text-info-second {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 22px;
+    }
+    &__text-btn {
+        margin-bottom: 220px;
+    }
+    &__right-free {
+        position: absolute;
+        top: 123px;
+        right: 143px;
+    }
+    &__right-img {
+        position: absolute;
+        z-index: -1;
+        top: 158px;
+        right: 175px;
+    }
+}
+.session {
+    width: 1216px;
+    overflow: hidden;
+    border-radius: 24px;
+    background: #faf8f6;
+    box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+
+    &__text {
+        margin-top: 129px;
+        margin-left: 64px;
+    }
+    &__text h1 {
+        max-width: 550px;
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    &__text h2 {
+        color: rgba(74, 85, 108, 0.5);
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    &__text-btn {
+        margin-bottom: 129px; // ?
+    }
+    &__img {
+        width: 608px;
+        height: 480px;
+        background: url("/img/session.png") no-repeat;
+    }
+}
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    &__text {
+        margin-top: 48px;
+        margin-left: 112px;
+        margin-bottom: 48px;
+    }
+    &__text h1 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 38px;
+    }
+    &__text h2 {
+        color: #4a556c;
+        font-family: "Kumbh Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__form-input {
+        width: 280px;
+        height: 44px;
+        padding: 10px 14px;
+        border-radius: 8px;
+        border: 1px solid #d0d5dd;
+        background: #fff;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        margin-right: 16px;
+        color: rgba(74, 85, 108, 1);
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    &__form-input::placeholder {
+        color: rgba(74, 85, 108, 0.5);
+    }
+    &__form-btn {
+        width: 150px;
+        height: 44px;
+        color: white;
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        background: #20ad96;
+        border-radius: 8px;
+        border: 1px solid #20ad96;
+        margin-right: 112px;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    }
+}
+.footer {
+    &__content {
+        margin-left: 112px;
+        margin-top: 64px;
+    }
+    &__content > img {
+        margin-bottom: 32px;
+    }
+    &__content-main {
+        display: flex;
+        flex: row;
+    }
+    &__content-left {
+        margin-right: 64px;
+    }
+    &__content-left img {
+        margin-bottom: 32px;
+    }
+    &__content-left h2 {
+        color: rgba(74, 85, 108, 0.5);
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 0.5;
+        margin-bottom: 160.69px;
+        width: 320px;
+    }
+    &__content-nav {
+        width: 400px;
+        margin-right: 32px;
+    }
+    &__content-nav h2 {
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+    &__content-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    &__content-nav-links a {
+        color: rgba(74, 85, 108, 0.5);
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    &__content-contact {
+        display: flex;
+        flex-direction: column;
+    }
+    &__content-contact h2 {
+        margin-bottom: 16px;
+        color: #333461;
+        font-family: "Kumbh Sans";
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+    &__content-contact-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: rgba(74, 85, 108, 0.5);
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        height: 144px;
+    }
+    &__content-contact-links a {
+        color: rgba(74, 85, 108, 0.5);
+        font-family: "Kumbh Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    &__bottom {
+        padding-bottom: 48px;
+        display: flex;
+        align-items: center;
+        height: 24px;
+        width: 1216px;
+        justify-content: space-between;
+    }
+    &__bottom-svgs {
+        display: flex;
+        gap: 24px;
+    }
+}
+
+.helping {
+    display: flex;
+    align-items: center;
+    position: relative;
+    &__text {
+        max-width: 545px;
+        margin-left: 86px;
+    }
+    & h3 {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+        opacity: 0.4;
+        margin-bottom: 6px;
+        margin-top: 176px;
+    }
+    & h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: -0.72px;
+        margin-bottom: 30px;
+    }
+    & p {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 177px;
+    }
+    & img {
+        position: absolute;
+        top: 92px;
+        left: 812px;
+    }
+}
+
+.services {
+    &__cards h1 {
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px;
+        letter-spacing: -0.48px;
+        margin-top: 104px;
+        max-width: 680px;
+        margin-left: 380px;
+        margin-bottom: 76px;
+    }
+    &__cards-all {
+        margin-left: 260px;
+        display: flex;
+        gap: 20px;
+    }
+    &__cards-left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__cards-left h3 {
+        margin-top: 32px;
+        margin-bottom: 16px;
+        color: #041434;
+        font-family: Kumbh Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+    }
+    &__cards-left p {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.32px;
+    }
+    &__cards-left-info1 {
+        width: 450px;
+        height: 360px;
+        border: 1px solid #edeff5;
+        padding: 56px 75px;
+    }
+    &__cards-left-info2 {
+        width: 450px;
+        height: 360px;
+        border: 1px solid #edeff5;
+        padding: 56px 75px;
+    }
+    &__cards-right {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__cards-left-info1:hover h3,
+    &__cards-left-info2:hover h3,
+    &__cards-right-info1:hover h3,
+    &__cards-right-info2:hover h3 {
+        color: #20ad96;
+    }
+    &__cards-right h3 {
+        margin-top: 32px;
+        margin-bottom: 16px;
+        color: #041434;
+        font-family: Kumbh Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.72px;
+    }
+    &__cards-right p {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.32px;
+    }
+    &__cards-right-info1 {
+        width: 450px;
+        height: 360px;
+        border: 1px solid #edeff5;
+        padding: 56px 75px;
+    }
+    &__cards-right-info2 {
+        width: 450px;
+        height: 360px;
+        border: 1px solid #edeff5;
+        padding: 56px 75px;
+        margin-bottom: 40px;
+    }
+}
+.transform {
+    &__text {
+        width: 460px;
+        margin-left: 112px;
+    }
+    &__text h3 {
+        color: rgba(74, 85, 108, 0.5);
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 96px;
+        margin-bottom: 12px;
+    }
+    &__text h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-weight: 800;
+        letter-spacing: -0.96px;
+        margin-bottom: 20px;
+    }
+    &__text p {
+        color: rgba(74, 85, 108, 0.7);
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 64px;
+    }
+    &__content {
+        margin-left: 112px;
+        display: flex;
+        gap: 96px;
+    }
+    &__content img {
+        margin-bottom: 96px;
+    }
+    &__list {
+        margin-left: 60px;
+        position: relative;
+    }
+    &__list h2 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px; /* 126.316% */
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    &__list h3 {
+        color: #667085;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        width: 496px;
+        margin-bottom: 56px;
+    }
+    &__list-info1::before {
+        content: "";
+        position: absolute;
+        background: url("/img/Services/first-icon.png") no-repeat;
+        width: 58px;
+        height: 58px;
+        top: 0px;
+        left: -65px;
+    }
+    &__list-info2::before {
+        content: "";
+        position: absolute;
+        background: url("/img/Services/second-icon.png") no-repeat;
+        width: 58px;
+        height: 58px;
+        top: 136px;
+        left: -65px;
+    }
+    &__list-info3::before {
+        content: "";
+        position: absolute;
+        background: url("/img/Services/third-icon.png") no-repeat;
+        width: 58px;
+        height: 58px;
+        top: 272px;
+        left: -65px;
+    }
+    &__list-info4::before {
+        content: "";
+        position: absolute;
+        background: url("/img/Services/fourth-icon.png") no-repeat;
+        width: 58px;
+        height: 58px;
+        top: 408px;
+        left: -65px;
+    }
+}
+.tabs {
+    &__text h1 {
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 44px;
+        letter-spacing: -0.96px;
+        margin-bottom: 20px;
+        margin-top: 42px;
+    }
+    &__text h2 {
+        color: #4a556c;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 64px;
+    }
+    &__content {
+        margin-bottom: 64px;
+        margin-left: 336px;
+    }
+    &__content-btns-content {
+        width: 768px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content-btns-content span {
+        color: #101828;
+        font-family: Kumbh Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    &__content-btn {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        background: url("/img/Services/plus-circle.png");
+    }
+    &__content-btn-special {
+        background: url("/img/Services/minus-circle.png");
+    }
+    &__content-info {
+        width: 720px;
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 32px;
+        display: none;
+    }
+    &__helping {
+        border-radius: 16px;
+        width: 1216px;
+        margin: 0 auto;
+        background: #faf8f6;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-bottom: 132px;
+    }
+    &__helping h1 {
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    &__helping h2 {
+        color: #4a556c;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+    &__helping-btn {
+        width: 250px;
+        height: 44px;
+        border-radius: 8px;
+        border: 1px solid #20ad96;
+        background: #20ad96;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        color: #fff;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        padding: 10px 78.5px;
+        align-items: center;
+        margin-left: 483px;
+    }
+}
+.active {
+    display: block;
+}
+.guide {
+    display: flex;
+    height: 720px;
+    &__content {
+        width: 720px;
+        padding-left: 112px;
+        margin-top: 128px;
+    }
+    &__content h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 58px; /* 120.833% */
+        letter-spacing: -0.96px;
+        margin-bottom: 24px;
+    }
+    &__content p {
+        color: rgba(74, 85, 108, 0.7);
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+        width: 480px;
+        margin-bottom: 38px;
+    }
+    &__content-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__content-form input {
+        padding: 12px 14px 12px 16px;
+        width: 299px;
+        height: 48px;
+        border-radius: 8px;
+        border: 1px solid #d0d5dd;
+        background: #fff;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        color: #667085;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    &__content-form h5 {
+        color: #667085;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    &__content-form span {
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+    &__content-form-btn {
+        width: 299px;
+        height: 48px;
+        border-radius: 8px;
+        border: 1px solid #20ad96;
+        background: #20ad96;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        display: flex;
+        padding: 12px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: #fff;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+    }
+    &__img {
+        position: relative;
+        width: 720px;
+        background: #faf8f6;
+    }
+    &__img-mane {
+        position: absolute;
+        top: 69px;
+        left: 137px;
+    }
+    &__img-free {
+        position: absolute;
+        top: 34px;
+        right: 105px;
+    }
+}
+.testimonials {
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 112px;
+        margin-right: 79px;
+        margin-top: 68px;
+    }
+    &__text h5 {
+        color: rgba(74, 85, 108, 0.5);
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin-bottom: 12px;
+    }
+    &__text h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 58px; /* 120.833% */
+        letter-spacing: -0.96px;
+        margin-bottom: 68px;
+    }
+    &__btn {
+        width: 225px;
+        height: 48px;
+        margin-top: 23px;
+        border-radius: 8px;
+        border: 1px solid #20ad96;
+        background: #20ad96;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        color: #fff;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    &__cards {
+        width: 934px;
+        margin: 0 auto;
+        margin-top: 18px;
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        margin-bottom: 79px;
+    }
+    &__cards p {
+        color: #667085;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        width: 400px;
+        margin-bottom: 32px;
+    }
+    &__cards img {
+        margin-bottom: 16px;
+    }
+    &__cards h3 {
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 126.316% */
+        margin-bottom: 4px;
+    }
+    &__cards h4 {
+        color: rgba(74, 85, 108, 0.5);
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin-bottom: 16px;
+    }
+    &__cards-info1 {
+        width: 450px;
+        height: 312px;
+        border: 1px solid #edeff5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    &__cards-info2 {
+        width: 450px;
+        height: 312px;
+        border: 1px solid #edeff5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    &__cards-info3 {
+        width: 450px;
+        height: 312px;
+        border: 1px solid #edeff5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    &__cards-info4 {
+        width: 450px;
+        height: 312px;
+        border: 1px solid #edeff5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+.starting {
+    position: relative;
+    margin-bottom: 432px;
+    display: flex;
+    gap: 96px;
+    &__text {
+        width: 560px;
+        margin-left: 112px;
+    }
+    &__text h3 {
+        color: rgba(74, 85, 108, 0.5);
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        padding-top: 96px;
+        margin-bottom: 12px;
+    }
+    &__text h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 58px; /* 120.833% */
+        letter-spacing: -0.96px;
+        margin-bottom: 20px;
+    }
+    &__text p {
+        color: rgba(74, 85, 108, 0.7);
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+        margin-bottom: 160px;
+    }
+    &__cards {
+        padding-top: 96px;
+    }
+    &__cards img {
+        margin-right: 16px;
+    }
+    &__cards h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px; /* 126.316% */
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    &__cards p {
+        color: #667085;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin-bottom: 48px;
+        width: 496px;
+    }
+    &__cards-info1 {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__cards-info2 {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    & video {
+        width: 768px;
+        height: 432px;
+        position: absolute;
+        left: 336px;
+        top: 422px;
+        border-radius: 10px;
+    }
+}
+.downloading {
+    padding-top: 54px;
+    &__content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__content h1 {
+        margin-top: 101px;
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px;
+        letter-spacing: -0.48px;
+        width: 730px;
+        margin-bottom: 16px;
+    }
+    &__content span {
+        opacity: 0.96;
+        color: #20ad96;
+    }
+    &__content p:nth-child(2) {
+        color: rgba(74, 85, 108, 0.8);
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px; /* 147.059% */
+        margin-bottom: 40px;
+        width: 540px;
+    }
+    &__content p:nth-child(4) {
+        color: rgba(74, 85, 108, 0.5);
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        opacity: 0.92;
+        margin-bottom: 7px;
+    }
+    &__content-btn {
+        width: 250px;
+        height: 44px;
+        border-radius: 8px;
+        border: 1px solid #20ad96;
+        background: #20ad96;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        color: #fff;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        margin-bottom: 70px;
+    }
+    &__imgs1 {
+        position: absolute;
+        top: 377px;
+        left: 63px;
+    }
+    &__imgs2 {
+        position: absolute;
+        top: 171px;
+        left: 186px;
+    }
+    &__imgs3 {
+        position: absolute;
+        top: 52px;
+        left: 1109px;
+    }
+    &__imgs4 {
+        position: absolute;
+        top: 373px;
+        left: 1185px;
+    }
+    &__imgs5 {
+        position: absolute;
+        top: 223px;
+        left: 1319px;
+    }
+}
+.mini-stars {
+    margin-bottom: 39px;
+}
+
+.about {
+    &__preview {
+        position: relative;
+        display: flex;
+        gap: 182px;
+    }
+    &__preview-text {
+        margin-left: 85px;
+    }
+    &__preview-text h5 {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.32px;
+        margin-top: 187px;
+        margin-bottom: 6px;
+    }
+    &__preview-text h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 120%; /* 86.4px */
+        letter-spacing: -0.72px;
+        margin-bottom: 6px;
+    }
+    &__preview-text p {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+        width: 545px;
+        margin-bottom: 23px;
+    }
+    &__preview-text-btn {
+        width: 250px;
+        height: 42px;
+        border-radius: 10px;
+        background: #20ad96;
+        color: #fff;
+        font-family: Kumbh Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        margin-bottom: 187px;
+    }
+    &__preview-img {
+        position: absolute;
+        top: 100px;
+        left: 812px;
+    }
+    &__preview-calendar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 60px;
+        left: 910px;
+    }
+    &__preview-sessions {
+        width: 194px;
+        height: 188px;
+        padding: 32px 40px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 293px;
+        left: 1204px;
+    }
+    &__preview-sessions img {
+        margin-bottom: 24px;
+    }
+    &__preview-sessions h3 {
+        color: #4a556c;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.32px;
+        margin-bottom: 4px;
+    }
+    &__preview-sessions h2 {
+        color: #041434;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.32px;
+    }
+}
+.about {
+    &__logos {
+        margin-top: 96px;
+        margin-bottom: 96px;
+    }
+    &__logos h1 {
+        color: #667085;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        margin-bottom: 32px;
+    }
+    &__logos-imgs {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.about {
+    &__reviews {
+        padding-top: 120px;
+    }
+    &__reviews > h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px; /* 116.667% */
+        letter-spacing: -0.48px;
+        width: 530px;
+        margin-bottom: 37px;
+    }
+    &__reviews-cards {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 231px;
+    }
+    &__reviews-cards h1 {
+        color: #dbdee6;
+        font-family: Kumbh Sans;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px; /* 133.333% */
+        letter-spacing: -0.9px;
+        margin-bottom: 15px;
+        transition: 0.5s;
+    }
+    &__reviews-cards p {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: -0.72px;
+        margin-bottom: 15px;
+    }
+    &__reviews-cards span {
+        transition: 0.5s;
+    }
+    &__reviews-cards h2 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: -0.72px;
+        margin-bottom: 15px;
+    }
+    &__reviews-cards-info1 {
+        width: 400px;
+        height: 411px;
+        padding: 48px;
+        background: white;
+        border: 1px solid #edeff5;
+        opacity: 0.85;
+        transition: all 1s;
+    }
+    &__reviews-cards-info1:hover {
+        box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+        opacity: 1;
+        transform: translate(50px, 17px) scale(1.1);
+    }
+    &__reviews-cards-info1:hover h1 {
+        color: #20ad96;
+    }
+    &__reviews-cards-info1:hover span {
+        color: #4a556c;
+        font-weight: 700;
+    }
+    &__reviews-cards-info2 {
+        width: 400px;
+        height: 411px;
+        padding: 48px;
+        background: white;
+        border: 1px solid #edeff5;
+        opacity: 0.85;
+        transition: all 1s;
+    }
+    &__reviews-cards-info2:hover {
+        box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+        opacity: 1;
+        transform: translate(0px, 17px) scale(1.1);
+    }
+    &__reviews-cards-info2:hover h1 {
+        color: #20ad96;
+    }
+    &__reviews-cards-info2:hover span {
+        color: #4a556c;
+        font-weight: 700;
+    }
+    &__reviews-cards-info3 {
+        width: 400px;
+        height: 411px;
+        padding: 48px;
+        background: white;
+        border: 1px solid #edeff5;
+        opacity: 0.85;
+        transition: all 1s;
+    }
+    &__reviews-cards-info3:hover {
+        box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+        opacity: 1;
+        transform: translate(-50px, 17px) scale(1.1);
+    }
+    &__reviews-cards-info3:hover h1 {
+        color: #20ad96;
+    }
+    &__reviews-cards-info3:hover span {
+        color: #4a556c;
+        font-weight: 700;
+    }
+}
+.steps {
+    &__title-first {
+        margin-top: 162px;
+    }
+    &__title-second {
+        margin-top: 122px;
+    }
+    &__title h3 {
+        color: rgba(74, 85, 108, 0.5);
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin-bottom: 12px;
+    }
+    &__title h1 {
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 44px; /* 122.222% */
+        letter-spacing: -0.72px;
+        margin-bottom: 20px;
+    }
+    &__title p {
+        color: rgba(74, 85, 108, 0.7);
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+        margin-bottom: 64px;
+        width: 768px;
+        margin-left: 336px;
+    }
+    &__cards {
+        margin-left: 112px;
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        width: 1225px;
+        height: 408px;
+        margin-bottom: 96px;
+    }
+    &__cards img {
+        margin-bottom: 20px;
+    }
+    &__cards h1 {
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px; /* 120% */
+        margin-bottom: 8px;
+    }
+    &__cards p {
+        color: #667085;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    &__cards-info1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 384px;
+        height: 172px;
+        margin-bottom: 32px;
+        transition: 0.5s;
+    }
+    &__cards-info1:hover,
+    &__cards-info2:hover,
+    &__cards-info3:hover,
+    &__cards-info4:hover,
+    &__cards-info5:hover,
+    &__cards-info6:hover {
+        transform: scale(1.1);
+    }
+    &__cards-info2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 384px;
+        height: 172px;
+        transition: 0.5s;
+    }
+    &__cards-info3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 384px;
+        height: 172px;
+        transition: 0.5s;
+    }
+    &__cards-info4 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 384px;
+        height: 172px;
+        transition: 0.5s;
+    }
+    &__cards-info5 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 384px;
+        height: 172px;
+        transition: 0.5s;
+    }
+    &__cards-info6 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 384px;
+        height: 172px;
+        transition: 0.5s;
+    }
+}
+
+.therapy {
+    position: relative;
+    &__snake {
+        position: absolute;
+        top: 55px;
+        left: 33px;
+    }
+    &__text {
+        padding-top: 140px;
+        padding-left: 85px;
+    }
+    &__text h3 {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.32px;
+        opacity: 0.4;
+        margin-bottom: 6px;
+    }
+    &__text h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 120%; /* 86.4px */
+        letter-spacing: -0.72px;
+        width: 520px;
+        margin-bottom: 18px;
+    }
+    &__text p {
+        color: #4a556c;
+        font-family: Kumbh Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%; /* 28.8px */
+        margin-bottom: 18px;
+        width: 545px;
+    }
+    &__text-btn {
+        width: 250px;
+        height: 42px;
+        border-radius: 10px;
+        background: #20ad96;
+        color: var(--White, #fff);
+        font-family: Kumbh Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        margin-bottom: 141px;
+    }
+    &__img {
+        position: absolute;
+        top: 100px;
+        left: 812px;
+    }
+}
+
+.program {
+    position: relative;
+    height: 860px;
+    margin-bottom: 165px;
+    &__title {
+        padding-top: 49px;
+    }
+    &__title h1 {
+        color: rgba(74, 85, 108, 0.5);
+        width: 928px;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin-bottom: 9px;
+        margin-left: 252px;
+    }
+    &__title h2 {
+        padding-left: 6px;
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 58px; /* 120.833% */
+        letter-spacing: -0.96px;
+        margin-bottom: 43.15px;
+        width: 488px;
+        margin-left: 482px;
+    }
+    &__cards {
+        display: flex;
+    }
+    &__cards h1 {
+        color: #333461;
+        font-family: Kumbh Sans;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 120%; /* 26.4px */
+        letter-spacing: -0.22px;
+        margin-bottom: 74px;
+    }
+    &__cards span {
+        color: #333461;
+        text-decoration-line: underline;
+    }
+    &__cards li {
+        color: #667085;
+        font-family: Kumbh Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        width: 332px;
+        padding-left: 32px;
+        position: relative;
+    }
+    &__cards-info1 li::before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 24px;
+        top: 0;
+        left: 0;
+        background: url("/img/Sales/no.png") no-repeat;
+    }
+    &__cards-info1 h1 {
+        text-align: center;
+    }
+    &__cards-info1 {
+        margin-left: 332px;
+        margin-top: 58px;
+    }
+    &__cards-info1-list {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+    &__cards-info2 {
+        width: 446px;
+        height: 540px;
+        background: white;
+        padding: 58px 57px 100px 57px;
+        position: absolute;
+        top: 254px;
+        right: 254px;
+    }
+    &__cards-info2 li::before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 24px;
+        top: 0;
+        left: 0;
+        background: url("/img/Sales/yes.png") no-repeat;
+    }
+    &__cards-info2-list {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+}
+.guarantee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img {
+        margin-top: 31px;
+    }
+    & h1 {
+        color: #333461;
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 48px; /* 120% */
+        letter-spacing: -0.5px;
+        margin-bottom: 24px;
+    }
+    & h2 {
+        color: rgba(74, 85, 108, 0.7);
+        text-align: center;
+        font-family: Kumbh Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+        margin-bottom: 176px;
+        width: 540px;
+    }
+}
